@@ -11,7 +11,7 @@ size_t bufferSize;
 
 void testWithChech(){
 	for(size_t i = 0;i < bufferSize; i++){
-		if(buffer[i] == NULL)
+		if(buffer == NULL)
 			buffer[i] = 1;
 	}
 }
