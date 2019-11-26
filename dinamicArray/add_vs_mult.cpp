@@ -1,7 +1,5 @@
 #include <stdio.h>
-#include <tchar.h>
 #include <time.h>
-#include <conio.h>
 
 class Arr {
 public:
@@ -51,7 +49,7 @@ void testMult(){
 }
 
 
-int _tmain(int argc, _TCHAR* argv[])
+int main(int argc, char* argv[])
 {
 
 	time_t begin = clock();
@@ -66,7 +64,6 @@ int _tmain(int argc, _TCHAR* argv[])
 	spend = (end - begin);
 	printf("Mult: %d\n",spend);
 
-	getch();
 	return 0;
 }
 
